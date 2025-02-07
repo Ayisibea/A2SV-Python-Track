@@ -8,8 +8,7 @@ if __name__ == '__main__':
         student.append(n_student)
     student.sort()
     low = student[0][0]
-    # count = 0
-    # while count<2:
+
     for i in range(len(student)):
         if student[i][0] > low:
             low = student[i][0]
